@@ -14,7 +14,7 @@ A PDF version of the thesis can be found [here](/files/pdf/master_thesis_physics
 
 My presentation of my research can be found [here](/files/pdf/master_thesis_physics_presentation.pdf){:target="_blank"}.
 
-Read more in this post (to do)
+Read more in [this post]({{ site.baseurl }}{% post_url 2022-08-21-master-thesis-physics %})
 
 Supersymmetric black holes and the black hole attractor mechanism
 ------
