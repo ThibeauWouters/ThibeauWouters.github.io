@@ -1,5 +1,5 @@
 ---
-title: 'Modelling the spiral waves of cell cycle oscillations'
+title: 'Spatiotemporal coordination of the cell division cycle'
 date: 2022-08-23
 permalink: /posts/2022/08/spiral-waves/
 excerpt_separator: <!--more-->
@@ -22,8 +22,8 @@ figcaption {
 }
 </style>
 
-In oscillatory media, regions oscillating faster than their surroundings, as well as topological defects, can act as sources of waves which end up synchronizing the whole medium. In biological systems, these waves are a crucial way of transmitting information efficiently. At [GelensLab](https://www.gelenslab.org/){:target="_blank"},
-interest in spiral wave phenomena is inspired by recent observations of such structures in cell cycle oscillations of _Xenopus laevis_ frogs. During my internship at GelensLab, my goal was to gain insight into properties of these wave phenomena through simulations of mathematical models.
+In oscillatory media, heterogeneities act as sources of waves which end up synchronizing the whole medium. In biological systems, these waves are a crucial way of transmitting information. At [GelensLab](https://www.gelenslab.org/){:target="_blank"}, recent experiments increased an
+interest in spiral wave phenomena in the context of cell cycle oscillations of _Xenopus laevis_ frogs. During my internship, my goal was to gain insight into properties of these wave phenomena through simulations of mathematical models.
 
 <!--more-->
 
@@ -100,4 +100,36 @@ In order to check if the simulations were able to reproduce this result, we vari
   <figcaption> Comparison between periods of spirals and target patterns from simulations. $P_i, P_o$ refer to the inner and outer period of the pacemaker and its surroundings for the target patterns. </figcaption>
 </p>
 
-(to finish!)
+# Competing wave patterns
+
+In the experiments, it was also observed that target patterns and spiral waves can co-exist, and will compete with each other to take over the medium. In an extreme case, it was even observed that spirals can turn over into target patterns.
+
+<p align="center">
+  <img src="/images/posts/spirals/spiral_to_target.gif" alt="Video showing a spiral wave turning into a target pattern." width="90%" height = "auto">
+  <figcaption> Experiment showing that spiral waves can turn into target patterns. Distances are in $\mu$m. </figcaption>
+</p>
+
+As such, we are interested in modelling the interplay between spiral waves and target patterns with our FHN model. In the internship, we considered an initial condition with a pacemaker region along with a topological defect. Depending on the model parameters, and the properties of the pacemaker region (size $R$ and period difference $h = P_o - P_i$), there are three possible scenarios at the end of a simulation which are shown below.
+
+<p align="center">
+  <img src="/images/posts/spirals/three_outcomes.png" alt = "Figure showing the three possible outcomes of a competition." width="90%" height = "auto">
+  <figcaption> Three possible outcomes of the competition between a spiral and a target pattern. </figcaption>
+</p>
+
+We simulated this set-up for various properties of the initial condition, again by relying on the HPC cluster of supercomputers from VSC. We numerically detected the outcome of the simulations after a large time period such that the system reached a steady state. One survey, where we varied the timescale separation $\varepsilon$ and $h = P_o - P_i$, the period difference of the pacemaker, is shown below.
+
+<p align="center">
+  <img src="/images/posts/spirals/Competition_eps_and_h.png" alt = "Figure showing the outcome of a survey of the competition between wave patterns." width="100%" height = "auto">
+  <figcaption> Survey of the outcome of the competition between spirals and target patterns for varying values of the timescale separation and the 'strength' of the pacemaker region with respect to the surrounding medium. </figcaption>
+</p>
+
+Grouping these outcomes together, we tried to establish the relevant factor deciding the outcome of the competition. Below, we show the distributions of the **envelopespeeds** of the spiral and target patterns. The envelopespeed is the speed with which a wave pattern takes over the surrounding medium. The results seem to indicate that there is a strong correlation between the envelopespeed of a pattern and the final outcome of the competition between patterns: a wave pattern with a larger envelopespeed is more likely to overtake the medium. Future work will delve deeper into other possible explanations.
+
+<p align="center">
+  <img src="/images/posts/spirals/Boxplots_varying_eps_and_h.png" alt = "Boxplots to explain the competition" width="75%" height = "auto">
+  <figcaption> Boxplots of the difference between the envelopespeed of the spiral and the target pattern, grouped together per outcome of the competition. </figcaption>
+</p>
+
+# Conclusion
+
+In this internship, I have looked at the properties of spiral waves and target patterns in two-dimensional systems by numerical studies of a FitzHugh-Nagumo model of reaction-diffusion equations. The similarities or differences between how these two patterns behave under variation of the parameters of the system can provide crucial information regarding how biological systems rely on either target patterns or spiral waves (or both) to transmit information within the cytoplasm of a cell. Future work can build on the interaction and relation between the two patterns, and study in detail how the numerical simulations are related to experiments performed in the lab, possibly even inspiring future experimental work in the field. Understanding how waves, originating from pacemaker regions or topological defects, travel around in biological systems is of central importance in understanding how life organizes and coordinates oscillations in basic functions such as divisions in cell cycles. With evolution as driving force and vast amounts of time, lifeforms were able to construct mechanisms that optimize their functioning. Figuring out the properties of different wave patterns appearing in Nature is a crucial step towards understanding why evolution curated these distinct mechanisms to transmit information, eventually adding to our understanding of deeper questions about life in general.
