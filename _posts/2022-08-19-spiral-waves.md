@@ -1,6 +1,6 @@
 ---
 title: 'Spatiotemporal coordination of the cell division cycle'
-date: 2022-08-23
+date: 2022-08-19
 permalink: /posts/2022/08/spiral-waves/
 excerpt_separator: <!--more-->
 header-includes:
