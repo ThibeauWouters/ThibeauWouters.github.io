@@ -28,9 +28,9 @@ Education
 
 Research experience
 ======
-* Master thesis in the gravitational waves research group of KU Leuven [(GWC)](https://fys.kuleuven.be/gwc). _Work in progress_
-* Research internship at [GelensLab](https://www.gelenslab.org/){:target="_blank"}. Read about it [here](https://thibeauwouters.github.io/posts/2022/08/spiral-waves/){:target="_blank"}.
+* Master thesis in the gravitational waves research group of KU Leuven [(GWC)](https://fys.kuleuven.be/gwc){:target="_blank"}. _Work in progress_
 * Master thesis in the high-energy group of KU Leuven _Institute for Theoretical Physics_ [(ITF)](https://fys.kuleuven.be/itf/){:target="_blank"}, under supervision of Nikolay Bobev. Read about it [here](https://thibeauwouters.github.io/posts/2022/08/master-thesis-physics/){:target="_blank"}.
+* Research internship at [GelensLab](https://www.gelenslab.org/){:target="_blank"}. Read about it [here](https://thibeauwouters.github.io/posts/2022/08/spiral-waves/){:target="_blank"}.
 
 Teaching experience
 ======
