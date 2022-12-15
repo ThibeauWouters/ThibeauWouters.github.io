@@ -37,6 +37,8 @@ A PDF version of the report can be found [here](/files/pdf/research_internship_s
 
 The presentation of this report can be found [here](/files/pdf/research_internship_spiral_waves_presentation.pdf){:target="_blank"}.
 
+Read more in [this post]({{ site.baseurl }}{% post_url 2022-08-19-spiral-waves%})
+
 On Quantum Harmonic Oscillators, Modularity and Algebraic Number Theory
 ------
 

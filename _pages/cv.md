@@ -9,6 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+Contact
+======
+Want to contact me? Send me a DM on Twitter or LinkedIn, or shoot an <i class="fa fa-envelope" aria-hidden="true"></i> [e-mail](mailto:thibeau.wouters@student.kuleuven.be){:target="_blank"}!
+
+
 PDF version
 ======
 
@@ -23,8 +28,9 @@ Education
 
 Research experience
 ======
-* Research internship at [GelensLab](https://www.gelenslab.org/){:target="_blank"}. More info later
-* Master thesis in the high-energy group of KU Leuven _Institute for Theoretical Physics_ [(ITF)](https://fys.kuleuven.be/itf/){:target="_blank"}, under supervision of Nikolay Bobev. Read about it [here](https://thibeauwouters.github.io/posts/2022/08/master-thesis-physics/).
+* Master thesis in the gravitational waves research group of KU Leuven [(GWC)](https://fys.kuleuven.be/gwc). _Work in progress_
+* Research internship at [GelensLab](https://www.gelenslab.org/){:target="_blank"}. Read about it [here](https://thibeauwouters.github.io/posts/2022/08/spiral-waves/){:target="_blank"}.
+* Master thesis in the high-energy group of KU Leuven _Institute for Theoretical Physics_ [(ITF)](https://fys.kuleuven.be/itf/){:target="_blank"}, under supervision of Nikolay Bobev. Read about it [here](https://thibeauwouters.github.io/posts/2022/08/master-thesis-physics/){:target="_blank"}.
 
 Teaching experience
 ======
@@ -52,6 +58,7 @@ Awards
 Miscellaneous
 ======
 * Volunteer at [Pangaea](https://www.kuleuven.be/english/stuvo/pangaea){:target="_blank"} and [Home Vesalius](https://www.kuleuven.be/english/life-at-ku-leuven/housing/find-housing/students/residences/student-services-residence-halls/home-vesalius){:target="_blank"}: welcoming new international students in student residence.
+* Volunteer at [Mobile School](https://www.mobileschool.org/): organising and helping at a walk to raise money to help street kids around the world.
 
 <!---
 this is going, bye!
