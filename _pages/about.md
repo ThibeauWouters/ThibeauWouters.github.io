@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 
-Welcome to my personal website! I am a physicist and currently master student of artificial intelligence at KU Leuven, Belgium. You can get to know me by browsing through my Portfolio, where I discuss projects I have worked on in the past.
+Welcome to my personal website! I obtained a master of physics and am currently following an advanced master student of artificial intelligence at KU Leuven, Belgium. In September 2023, I am starting a PhD position at Utrecht University under supervision of Chris Van Den Broeck, where I will work on gravitational waves and data analysis to constrain the nuclear equation of state.
 
-Currently, I am looking for a PhD position involving research performed in the intersection between physics and machine learning.
+ You can get to know me by browsing through my Portfolio, where I discuss projects I have worked on in the past, or look at my Resources tab, where I try to gather references and useful material on certain topics as well as cheat sheets.
 
 
 
