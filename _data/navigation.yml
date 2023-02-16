@@ -13,8 +13,8 @@ main:
   - title: "Posts"
     url: /year-archive/
 
-  - title: "Resources"
-    url: /resources/
+  # - title: "Resources"
+  #   url: /resources/
 
   #- title: "Teaching"
   #  url: /teaching/

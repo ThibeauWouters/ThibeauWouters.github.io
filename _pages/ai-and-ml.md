@@ -1,10 +1,7 @@
 ---
 title: 'AI and ML, and a bit of data analysis'
-permalink: /resources/gw
+permalink: /resources/ai-and-ml/
 excerpt_separator: <!--more-->
-header-includes:
-   - \usepackage{bbm}
-   - \usepackage{physics}
 ---
 <!--
 <style>
@@ -19,5 +16,3 @@ figcaption {
 Here, I will store useful references for AI, ML and data analysis.
 
 # Textbooks
-
-*
