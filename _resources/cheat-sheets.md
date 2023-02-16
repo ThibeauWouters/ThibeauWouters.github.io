@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-permalink: /resources/cheat-sheets/
+permalink: /resources/cheat-sheets
 ---
 
 
