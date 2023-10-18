@@ -3,6 +3,15 @@ title: "Projects"
 permalink: /projects_page/
 ---
 
+Machine learning algorithms for the conservative-to-primitive conversion in relativistic hydrodynamics
+------
+
+Master thesis of aritificial intelligence studying the application of machine learning algorithms to speed up expensive numerical relativity simulations of neutron stars and supernovae. The thesis was performed at the _Institute for Theoretical Physics_ ([ITF](https://fys.kuleuven.be/itf/)) at KU Leuven, under supervision of Tjonnie Li and Johan Suykens from ESAT.
+
+A PDF version of the thesis can be found [here](/files/pdf/ML_algorithms_for_C2P_in_relativistic_hydrodynamics.pdf){:target="_blank"}.
+
+My presentation of my research can be found [here](/files/pdf/Presentation__ML_algorithms_for_C2P___general.pdf){:target="_blank"}.
+
 
 Holographic RG flows in gauged supergravity
 ------
