@@ -1,31 +1,138 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# ThibeauWouters.github.io
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Personal academic website, built with [Jekyll](https://jekyllrb.com/) on the [academicpages](https://github.com/academicpages/academicpages.github.io) template (a fork of the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme). Deployed automatically via GitHub Pages from the `master` branch — pushing to `master` is all that's needed to publish.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## Build and view locally
 
-# Instructions
+This repo requires Ruby **3.1.x** specifically — the `github-pages` gem pins an old Jekyll/Liquid version that breaks on Ruby >= 3.2 (`tainted?`/`untaint` were removed) and on Ruby >= 3.3's bundled `logger` gem. macOS's built-in system Ruby is a different (and much older) version, so it won't work either. Follow all the steps below in order.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+### 1. Install rbenv (one-time, per machine)
 
-See more info at https://academicpages.github.io/
+```bash
+brew install rbenv ruby-build
+```
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+`rbenv` lets this project use its own Ruby version without touching your system Ruby.
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+### 2. Hook rbenv into your shell (one-time, per machine)
 
-# Changelog -- bugfixes and enhancements
+Add this line to `~/.zshrc` (or `~/.bashrc` if you use bash):
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+```bash
+eval "$(rbenv init - zsh)"   # use "bash" instead of "zsh" if that's your shell
+```
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+Then restart your terminal (or run `source ~/.zshrc`). Without this step, `ruby`/`gem`/`bundle` silently keep resolving to macOS's system Ruby no matter what this repo's `.ruby-version` file says, and you'll hit errors like `bundler: command not found: jekyll`. Verify it worked:
+
+```bash
+type ruby   # should print a path under ~/.rbenv/shims, not /usr/bin/ruby
+```
+
+### 3. Install the pinned Ruby version (one-time, per machine)
+
+From inside this repo's directory (so `.ruby-version` is picked up):
+
+```bash
+rbenv install 3.1.7   # matches .ruby-version; skips automatically if already installed
+gem install bundler -v 2.3.20
+rbenv rehash
+```
+
+### 4. Install the site's gems (one-time, or after Gemfile changes)
+
+Still from inside this repo's directory:
+
+```bash
+bundle config set --local path 'vendor/bundle'   # vendor gems into the repo instead of system-wide
+bundle install
+```
+
+`vendor/bundle` and `.bundle/` are gitignored, so this stays local to your machine. If `bundle install` fails for an unrelated reason, delete `Gemfile.lock` and try again.
+
+### 5. Serve the site
+
+```bash
+bundle exec jekyll serve --config _config.yml,_config.dev.yml
+```
+
+Then open 
+
+```bash
+http://localhost:4000
+```
+
+**Port already in use?** Closing the browser tab does not stop the server — the `jekyll serve` process keeps running in the background and holding port 4000, so a rerun fails with `Address already in use - bind(2) for 127.0.0.1:4000`. Find and kill it, then restart:
+
+```bash
+lsof -nP -iTCP -sTCP:LISTEN | grep 4000   # find the PID listening on port 4000
+kill <PID>                                 # stop it (use kill -9 <PID> if it won't stop)
+```
+
+The dev config (`_config.dev.yml`) disables analytics and points the site at `localhost` instead of the live URL. The server watches for changes and rebuilds automatically; refresh the browser to see them.
+
+For the browser to also auto-refresh on change, add Jekyll's native `--livereload` flag instead: `bundle exec jekyll serve --config _config.yml,_config.dev.yml --livereload`. **Do not use `jekyll liveserve`** (the `hawkins` gem) — it's incompatible with the vendored Jekyll 3.9.2 and returns a 500 error on every request (`undefined method 'key?' for nil:NilClass` in WEBrick's charset handling, since `hawkins` never sets `:MimeTypesCharset`). If you're hitting a blank page or that error, check for a stray `jekyll liveserve` process (`lsof -nP -iTCP -sTCP:LISTEN | grep 4000`), kill it, and restart with `--livereload` as above.
+
+Steps 1-4 only need to be redone if you switch machines or the `Gemfile` changes; day to day, step 5 is all you need.
+
+**Troubleshooting: `bundler: command not found: jekyll`.** This means your shell isn't actually using the rbenv-managed Ruby, even if your terminal prompt shows the right version (some prompt themes just read `.ruby-version` as text, without checking whether rbenv is really active). Confirm with `type ruby` — it should print a path under `~/.rbenv/shims`, not `/usr/bin/ruby`. If it prints the wrong path, step 2 (`eval "$(rbenv init - zsh)"` in `~/.zshrc`) either wasn't added or hasn't taken effect yet in this shell — open a new terminal window/tab (or run `source ~/.zshrc`) and try again.
+
+## Adding content
+
+### A blog post
+
+Add a file to `_posts/`, named `YYYY-MM-DD-title.md`, with front matter like:
+
+```yaml
+---
+title: "My post title"
+date: 2026-01-01
+---
+```
+
+It shows up automatically under the "Posts" nav link (`/year-archive/`).
+
+### A publication, talk, software package, or teaching entry
+
+These are collections, each with its own directory and archive page:
+
+* `_publications/` → `/publications/` (see `markdown_generator/pubsFromBib.py`/`publications.py` for bulk-generating entries from BibTeX/TSV, or fetch from your InspireHEP profile)
+* `_talks/` → `/talks/`
+* `_software/` → `/software/`
+* `_teaching/` → `/teaching/`
+
+Add a new Markdown file to the relevant directory with front matter matching the existing entries in that collection (e.g. `title`, `date`, `venue`, `permalink`); it shows up automatically on the matching archive page.
+
+### A standalone page
+
+Add a file to `_pages/` with front matter setting at least `title` and `permalink`:
+
+```yaml
+---
+title: "My New Page"
+permalink: /my-new-page/
+author_profile: true
+---
+```
+
+To surface it in the top nav, add an entry to `_data/navigation.yml`.
+
+### CV, About, or Resources content
+
+Edit the relevant file directly in `_pages/`: `cv.md`, `about.md`, `gw.md`, `ai-and-ml.md`, `cheat-sheets.md`.
+
+## Repo layout
+
+- `_pages/` — standalone pages (About, CV, Projects, Resources, ...)
+- `_posts/` — blog posts
+- `_data/navigation.yml` — top nav bar links
+- `_data/authors.yml` — sidebar author info
+- `_layouts/`, `_includes/`, `_sass/` — theme templates and styles (avoid changing these unless customizing the theme itself)
+- `files/` — uploaded PDFs etc., served at `/files/<name>`
+- `markdown_generator/` — optional scripts/notebooks to bulk-generate talk/publication Markdown files from a TSV
+
+See `CLAUDE.md` for more detail on the architecture.
+
+## Notes
+
+- If GitHub flags a security vulnerability in `Gemfile.lock`, delete it and run `bundle install` again.
+- This started as a fork of [academicpages](https://github.com/academicpages/academicpages.github.io) (MIT licensed, see `LICENSE`), itself a fork of [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
