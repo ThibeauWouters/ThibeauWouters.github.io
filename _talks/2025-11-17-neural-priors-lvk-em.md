@@ -1,5 +1,5 @@
 ---
-title: "Physics-informed neural priors for gravitational-wave inference"
+title: "Incorporating neutron star physics into gravitational wave inference with neural priors"
 collection: talks
 type: "Talk"
 permalink: /talks/2025-11-17-neural-priors-lvk-em/

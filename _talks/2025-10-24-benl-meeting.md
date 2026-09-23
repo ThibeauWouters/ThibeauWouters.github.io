@@ -1,5 +1,5 @@
 ---
-title: "Bayesian inference for neutron stars and gravitational waves"
+title: "Encoding neutron star information into neural priors for gravitational wave analyses"
 collection: talks
 type: "Talk"
 permalink: /talks/2025-10-24-benl-meeting/

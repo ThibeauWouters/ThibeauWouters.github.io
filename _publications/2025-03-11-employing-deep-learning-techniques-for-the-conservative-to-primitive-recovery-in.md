@@ -6,7 +6,10 @@ date: 2025-03-11
 venue: "Eur.Phys.J.A 61"
 paperurl: 'https://arxiv.org/abs/2503.08289'
 doi: '10.1140/epja/s10050-025-01661-y'
-citation: 'Ranjith Mudimadugula, Federico Schianchi, Anna Neuweiler, Thibeau Wouters, Henrique Gieg, Tim Dietrich, "Employing deep-learning techniques for the conservative-to-primitive recovery in binary neutron star simulations." Eur.Phys.J.A 61, 2025.'
+inspireurl: 'https://inspirehep.net/literature/2898849'
+inspire_id: 2898849
+inspire_rank: 16
+comment: "PLACEHOLDER"
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2503.08289){:target="_blank"}

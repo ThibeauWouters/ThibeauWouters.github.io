@@ -6,7 +6,10 @@ date: 2023-10-22
 venue: "Mon.Not.Roy.Astron.Soc. 530"
 paperurl: 'https://arxiv.org/abs/2310.14310'
 doi: '10.1093/mnras/stae503'
-citation: 'T. Hussenot-Desenonges, T. Wouters, N. Guessoum, et al., "Multiband analyses of the bright GRB 230812B and the associated SN2023pel." Mon.Not.Roy.Astron.Soc. 530, 2023.'
+inspireurl: 'https://inspirehep.net/literature/2713459'
+inspire_id: 2713459
+inspire_rank: 22
+comment: "PLACEHOLDER"
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2310.14310){:target="_blank"}

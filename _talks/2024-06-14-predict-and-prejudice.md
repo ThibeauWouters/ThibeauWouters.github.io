@@ -1,9 +1,9 @@
 ---
-title: "Bayesian inference for gravitational waves"
+title: "Predict and Prejudice: Classification of compact objects and model comparison using EOS knowledge"
 collection: talks
 type: "Talk"
 permalink: /talks/2024-06-14-predict-and-prejudice/
-venue: "Predict and Prejudice Workshop"
+venue: "Extreme Matter Call"
 date: 2024-06-14
 location: ""
 link: 'https://github.com/ThibeauWouters/slides/tree/main/2024/predict_and_prejudice'

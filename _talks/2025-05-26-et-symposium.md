@@ -1,5 +1,5 @@
 ---
-title: "Neutron star equation-of-state inference for the Einstein Telescope"
+title: "Scalable Bayesian inference for 3G: Leveraging hardware acceleration and normalizing flows"
 collection: talks
 type: "Talk"
 permalink: /talks/2025-05-26-et-symposium/

@@ -5,7 +5,10 @@ permalink: /publications/detecting-tidal-resonances-in-binary-neutron-stars/
 date: 2026-06-04
 venue: "arXiv preprint arXiv:2606.06376"
 paperurl: 'https://arxiv.org/abs/2606.06376'
-citation: 'Fabian Gittins, Harsh Narola, Thibeau Wouters, Peter T.H. Pang, Tanja Hinderer, Chris Van Den Broeck, "Detecting Tidal Resonances in Binary Neutron Stars." arXiv preprint arXiv:2606.06376, 2026.'
+inspireurl: 'https://inspirehep.net/literature/3165498'
+inspire_id: 3165498
+inspire_rank: 7
+comment: "PLACEHOLDER"
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2606.06376){:target="_blank"}

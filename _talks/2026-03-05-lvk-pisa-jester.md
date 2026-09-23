@@ -1,5 +1,5 @@
 ---
-title: "jester: fast inference of the nuclear equation of state"
+title: "jester v0.2.0: Scalable inference of the equation of state with multimessenger data"
 collection: talks
 type: "Talk"
 permalink: /talks/2026-03-05-lvk-pisa-jester/

@@ -1,10 +1,10 @@
 ---
-title: "jester: fast inference of the nuclear equation of state"
+title: "Leveraging Differentiable Programming in the Inverse Problem of Neutron Stars"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-03-15-jester-extreme-matter/
+permalink: /talks/2025-03-17-jester-extreme-matter/
 venue: "Extreme Matter Workshop"
-date: 2025-03-15
+date: 2025-03-17
 location: ""
 link: 'https://github.com/ThibeauWouters/slides/tree/main/2025/jester_extreme_matter'
 ---

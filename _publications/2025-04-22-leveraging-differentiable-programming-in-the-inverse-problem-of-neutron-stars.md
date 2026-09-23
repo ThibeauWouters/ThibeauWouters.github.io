@@ -6,7 +6,10 @@ date: 2025-04-22
 venue: "Phys.Rev.D 112"
 paperurl: 'https://arxiv.org/abs/2504.15893'
 doi: '10.1103/v2y8-kxvx'
-citation: 'Thibeau Wouters, Peter T.H. Pang, Hauke Koehn, et al., "Leveraging differentiable programming in the inverse problem of neutron stars." Phys.Rev.D 112, 2025.'
+inspireurl: 'https://inspirehep.net/literature/2915009'
+inspire_id: 2915009
+inspire_rank: 14
+comment: "PLACEHOLDER"
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2504.15893){:target="_blank"}

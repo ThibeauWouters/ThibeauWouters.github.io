@@ -1,5 +1,5 @@
 ---
-title: "JAX-based tools for gravitational-wave and multimessenger inference"
+title: "Scalable Bayesian Inference for Third-Generation Gravitational Wave Data with Normalizing Flows"
 collection: talks
 type: "Talk"
 permalink: /talks/2025-06-16-eucaifcon/

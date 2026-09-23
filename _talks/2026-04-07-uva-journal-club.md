@@ -1,5 +1,5 @@
 ---
-title: "Bayesian inference for gravitational waves and neutron stars"
+title: "GPU-accelerated multimessenger inference: applications and prospects"
 collection: talks
 type: "Journal Club"
 permalink: /talks/2026-04-07-uva-journal-club/

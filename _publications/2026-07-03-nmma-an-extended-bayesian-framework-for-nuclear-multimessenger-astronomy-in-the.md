@@ -5,7 +5,10 @@ permalink: /publications/nmma-an-extended-bayesian-framework-for-nuclear-multime
 date: 2026-07-03
 venue: "arXiv preprint arXiv:2607.03045"
 paperurl: 'https://arxiv.org/abs/2607.03045'
-citation: 'Henrik Rose, Hauke Koehn, Thibeau Wouters, et al., "nmma: An extended Bayesian framework for Nuclear Multimessenger Astronomy in the Era of Next-Generation Detectors." arXiv preprint arXiv:2607.03045, 2026.'
+inspireurl: 'https://inspirehep.net/literature/3177680'
+inspire_id: 3177680
+inspire_rank: 5
+comment: "PLACEHOLDER"
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2607.03045){:target="_blank"}

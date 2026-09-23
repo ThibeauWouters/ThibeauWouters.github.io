@@ -6,7 +6,10 @@ date: 2025-07-17
 venue: "Phys.Rev.D 113"
 paperurl: 'https://arxiv.org/abs/2507.13039'
 doi: '10.1103/6qc8-3k97'
-citation: 'Peter T.H. Pang, Stephanie M. Brown, Thibeau Wouters, Chris Van Den Broeck, "Revealing tensions in neutron star observations with pressure anisotropy." Phys.Rev.D 113, 2025.'
+inspireurl: 'https://inspirehep.net/literature/2948389'
+inspire_id: 2948389
+inspire_rank: 13
+comment: "PLACEHOLDER"
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2507.13039){:target="_blank"}
