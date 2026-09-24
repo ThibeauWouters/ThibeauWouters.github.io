@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Software"
+permalink: /software/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign software_sorted = site.software | sort: "order" %}
+{% for post in software_sorted %}
+  {% include archive-single.html %}
+{% endfor %}

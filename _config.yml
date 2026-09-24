@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Thibeau Wouters"
-  avatar           : "profielfoto_nu_zoom_3.jpg"
-  bio              : "PhD candidate at Utrecht University, working on Bayesian data analysis tools gravitational waves and multi-messenger astrophysics."
+  avatar           : "twouters_small.png"
+  bio              : "PhD candidate at Utrecht University, working on Bayesian data analysis for gravitational waves and multi-messenger astrophysics"
   location         : "Utrecht"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ThibeauWouters"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -130,6 +130,8 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CLAUDE.md
+  - _publications/CLAUDE.md
   - Capfile
   - Gemfile
   - Gruntfile.js
@@ -175,13 +177,10 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  software:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -209,15 +208,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -227,15 +217,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _software
   - scope:
       path: ""
-      type: portfolio
+      type: software
     values:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""
