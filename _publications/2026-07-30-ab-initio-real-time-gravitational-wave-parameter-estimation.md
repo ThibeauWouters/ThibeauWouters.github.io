@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2607.28265'
 inspireurl: 'https://inspirehep.net/literature/3184890'
 inspire_id: 3184890
 inspire_rank: 1
-comment: "PLACEHOLDER"
+comment: "We introduce a slice-within-Gibbs sampler within Jim, and show how it can infer binary neutron star properties at unprecedented sampling speeds."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2607.28265){:target="_blank"}

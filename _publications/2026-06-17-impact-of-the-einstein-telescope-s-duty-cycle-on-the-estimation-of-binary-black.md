@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2606.19201'
 inspireurl: 'https://inspirehep.net/literature/3169589'
 inspire_id: 3169589
 inspire_rank: 6
-comment: "PLACEHOLDER"
+comment: "We assess the impact of a realistic duty cycle on parameter estimation of gravitational waves from binary black hole mergers."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2606.19201){:target="_blank"}

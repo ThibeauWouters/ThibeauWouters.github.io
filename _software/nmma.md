@@ -2,6 +2,7 @@
 title: "NMMA"
 collection: software
 permalink: /software/nmma/
+order: 3
 link: "https://github.com/nuclear-multimessenger-astronomy/nmma/"
 excerpt: "A pythonic library for probing nuclear physics and cosmology with multimessenger analysis."
 ---

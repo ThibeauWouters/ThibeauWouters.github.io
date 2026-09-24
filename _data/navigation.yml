@@ -10,9 +10,6 @@ main:
   - title: "Software"
     url: /software/
 
-  - title: "Teaching"
-    url: /teaching/
-
   - title: "Posts"
     url: /year-archive/
 

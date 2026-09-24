@@ -9,7 +9,7 @@ doi: '10.1051/0004-6361/202556626'
 inspireurl: 'https://inspirehep.net/literature/2950844'
 inspire_id: 2950844
 inspire_rank: 12
-comment: "PLACEHOLDER"
+comment: "We introduce fiesta, a GPU-accelerated pipeline for inference on kilonovae and gamma ray burst afterglows, with new surrogates for the latest models."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2507.13807){:target="_blank"}

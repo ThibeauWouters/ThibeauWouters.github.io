@@ -9,7 +9,7 @@ doi: '10.1093/mnras/stae503'
 inspireurl: 'https://inspirehep.net/literature/2713459'
 inspire_id: 2713459
 inspire_rank: 22
-comment: "PLACEHOLDER"
+comment: "Running Bayesian inference on a GRB candidate, performing model selection on the type of transient with the NMMA software."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2310.14310){:target="_blank"}

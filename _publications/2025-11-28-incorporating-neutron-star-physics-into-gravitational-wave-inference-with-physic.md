@@ -9,7 +9,7 @@ doi: '10.1103/8t5h-y4lf'
 inspireurl: 'https://inspirehep.net/literature/3087529'
 inspire_id: 3087529
 inspire_rank: 9
-comment: "PLACEHOLDER"
+comment: "We introduce data-driven priors for gravitational wave inference that are informed by existing knowledge on the neutron star equation of state."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2511.22987){:target="_blank"}

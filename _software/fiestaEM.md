@@ -2,6 +2,7 @@
 title: "fiestaEM"
 collection: software
 permalink: /software/fiestaEM/
+order: 4
 link: "https://github.com/nuclear-multimessenger-astronomy/fiestaEM/"
 excerpt: "Fast inference of electromagnetic signals and transients with JAX."
 ---

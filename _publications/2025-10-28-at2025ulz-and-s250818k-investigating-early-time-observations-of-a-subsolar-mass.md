@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2510.24620'
 inspireurl: 'https://inspirehep.net/literature/3074476'
 inspire_id: 3074476
 inspire_rank: 10
-comment: "PLACEHOLDER"
+comment: "We perform multi-messenger analyses of an SSM candidate reported by the LVK, and using the follow-up from telescopes."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2510.24620){:target="_blank"}

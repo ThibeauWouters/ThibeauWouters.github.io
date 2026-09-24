@@ -9,7 +9,7 @@ doi: '10.1103/6qc8-3k97'
 inspireurl: 'https://inspirehep.net/literature/2948389'
 inspire_id: 2948389
 inspire_rank: 13
-comment: "PLACEHOLDER"
+comment: "We extend jester to account for pressure anisotropies in neutron stars and infer them with real data."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2507.13039){:target="_blank"}

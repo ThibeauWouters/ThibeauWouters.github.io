@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2607.03045'
 inspireurl: 'https://inspirehep.net/literature/3177680'
 inspire_id: 3177680
 inspire_rank: 5
-comment: "PLACEHOLDER"
+comment: "We provide updates on the NMMA software, re-analyze the multi-messenger GW170817 merger and provide projections for future detectors."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2607.03045){:target="_blank"}

@@ -9,7 +9,7 @@ doi: '10.1103/6ld6-95xh'
 inspireurl: 'https://inspirehep.net/literature/2901886'
 inspire_id: 2901886
 inspire_rank: 15
-comment: "PLACEHOLDER"
+comment: "We use electromagnetic follow-up observations on neutron star-black hole merger candidates to provide limits on the ejecta masses of their kilonovae."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2503.15422){:target="_blank"}

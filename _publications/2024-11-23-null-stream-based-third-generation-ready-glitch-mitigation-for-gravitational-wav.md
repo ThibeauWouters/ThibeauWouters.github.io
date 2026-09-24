@@ -9,7 +9,7 @@ doi: '10.1103/l6tp-ykxp'
 inspireurl: 'https://inspirehep.net/literature/2851694'
 inspire_id: 2851694
 inspire_rank: 17
-comment: "PLACEHOLDER"
+comment: "We show how a triangular ET, using its null stream, has unique capabilities in mitigating noise transients in the detector, which would otherwise bias parameter estimation."
 ---
 
 [Access on arXiv](https://arxiv.org/abs/2411.15506){:target="_blank"}

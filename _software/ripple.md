@@ -2,6 +2,7 @@
 title: "ripple"
 collection: software
 permalink: /software/ripple/
+order: 5
 link: "https://github.com/tedwards2412/ripple/"
 excerpt: "Differentiable gravitational waveforms with JAX."
 ---

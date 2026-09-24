@@ -91,14 +91,13 @@ date: 2026-01-01
 
 It shows up automatically under the "Posts" nav link (`/year-archive/`).
 
-### A publication, talk, software package, or teaching entry
+### A publication, talk, or software package entry
 
 These are collections, each with its own directory and archive page:
 
 * `_publications/` → `/publications/` (see `markdown_generator/pubsFromBib.py`/`publications.py` for bulk-generating entries from BibTeX/TSV, or fetch from your InspireHEP profile)
 * `_talks/` → `/talks/`
 * `_software/` → `/software/`
-* `_teaching/` → `/teaching/`
 
 Add a new Markdown file to the relevant directory with front matter matching the existing entries in that collection (e.g. `title`, `date`, `venue`, `permalink`); it shows up automatically on the matching archive page.
 

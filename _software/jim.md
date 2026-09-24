@@ -2,6 +2,7 @@
 title: "jim"
 collection: software
 permalink: /software/jim/
+order: 2
 link: "https://github.com/kazewong/jim/"
 excerpt: "Gravitational-wave data analysis tools in JAX."
 ---

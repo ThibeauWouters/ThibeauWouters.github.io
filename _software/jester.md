@@ -2,6 +2,7 @@
 title: "jester"
 collection: software
 permalink: /software/jester/
+order: 1
 link: "https://github.com/nuclear-multimessenger-astronomy/jester/"
 excerpt: "A JAX-based package for fast inference of the nuclear equation of state from neutron star data."
 ---
