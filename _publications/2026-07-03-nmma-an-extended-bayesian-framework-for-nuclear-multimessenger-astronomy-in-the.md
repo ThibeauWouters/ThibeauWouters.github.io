@@ -7,7 +7,7 @@ venue: "arXiv preprint arXiv:2607.03045"
 paperurl: 'https://arxiv.org/abs/2607.03045'
 inspireurl: 'https://inspirehep.net/literature/3177680'
 inspire_id: 3177680
-inspire_rank: 5
+inspire_rank: 6
 comment: "We provide updates on the NMMA software, re-analyze the multi-messenger GW170817 merger and provide projections for future detectors."
 ---
 

@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2504.15893'
 doi: '10.1103/v2y8-kxvx'
 inspireurl: 'https://inspirehep.net/literature/2915009'
 inspire_id: 2915009
-inspire_rank: 14
+inspire_rank: 15
 comment: "Methods paper introducing jester, a GPU-accelerated pipeline for equation of state inference."
 ---
 

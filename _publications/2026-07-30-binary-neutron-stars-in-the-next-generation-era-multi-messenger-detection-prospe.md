@@ -7,7 +7,7 @@ venue: "arXiv preprint arXiv:2607.28438"
 paperurl: 'https://arxiv.org/abs/2607.28438'
 inspireurl: 'https://inspirehep.net/literature/3184915'
 inspire_id: 3184915
-inspire_rank: 2
+inspire_rank: 3
 comment: "We use jester to provide an extensive projection study on multi-messenger inference on binary neutron star mergers observed in future detectors."
 ---
 

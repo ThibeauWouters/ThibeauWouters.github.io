@@ -7,7 +7,7 @@ venue: "arXiv preprint arXiv:2606.06376"
 paperurl: 'https://arxiv.org/abs/2606.06376'
 inspireurl: 'https://inspirehep.net/literature/3165498'
 inspire_id: 3165498
-inspire_rank: 7
+inspire_rank: 8
 comment: "We show that neutron star resonance modes leave detectable imprints in the gravitational wave signal."
 ---
 

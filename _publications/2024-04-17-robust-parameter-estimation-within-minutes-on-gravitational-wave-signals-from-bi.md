@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2404.11397'
 doi: '10.1103/PhysRevD.110.083033'
 inspireurl: 'https://inspirehep.net/literature/2778379'
 inspire_id: 2778379
-inspire_rank: 21
+inspire_rank: 22
 comment: "We develop GPU-accelerated waveform approximants for binary neutron star mergers, and demonstrate fast inference for this type of GW signals."
 ---
 

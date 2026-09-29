@@ -7,7 +7,7 @@ venue: "arXiv preprint arXiv:2410.21076"
 paperurl: 'https://arxiv.org/abs/2410.21076'
 inspireurl: 'https://inspirehep.net/literature/2843186'
 inspire_id: 2843186
-inspire_rank: 19
+inspire_rank: 20
 comment: "We run jim, a fast inference pipeline for gravitational waves, together with harmonic, which provides fast Bayesian evidence estimates from a set of samples."
 ---
 

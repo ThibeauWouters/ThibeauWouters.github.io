@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2407.07837'
 doi: '10.1103/PhysRevD.110.103015'
 inspireurl: 'https://inspirehep.net/literature/2806439'
 inspire_id: 2806439
-inspire_rank: 20
+inspire_rank: 21
 comment: "We assess recent observations in light of our knowledge of the nuclear equation of state."
 ---
 

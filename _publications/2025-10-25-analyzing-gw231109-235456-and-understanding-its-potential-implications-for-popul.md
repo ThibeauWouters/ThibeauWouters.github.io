@@ -7,7 +7,7 @@ venue: "arXiv preprint arXiv:2510.22290"
 paperurl: 'https://arxiv.org/abs/2510.22290'
 inspireurl: 'https://inspirehep.net/literature/3073790'
 inspire_id: 3073790
-inspire_rank: 11
+inspire_rank: 12
 comment: "We perform follow-up multi-messenger investigations of a candidate binary neutron star merger in LVK's O4a observing run, and provide projections of a similar source with future instruments."
 ---
 

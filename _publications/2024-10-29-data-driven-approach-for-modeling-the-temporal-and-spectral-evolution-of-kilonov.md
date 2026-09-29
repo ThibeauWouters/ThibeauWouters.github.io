@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2410.21978'
 doi: '10.1103/PhysRevD.111.043046'
 inspireurl: 'https://inspirehep.net/literature/2843646'
 inspire_id: 2843646
-inspire_rank: 18
+inspire_rank: 19
 comment: "We extend the treatment of systemtic uncertainties in kilonova light-curve inference, and demonstrate its usefulness when models are misspecified."
 ---
 

@@ -8,7 +8,7 @@ paperurl: 'https://arxiv.org/abs/2503.08289'
 doi: '10.1140/epja/s10050-025-01661-y'
 inspireurl: 'https://inspirehep.net/literature/2898849'
 inspire_id: 2898849
-inspire_rank: 16
+inspire_rank: 17
 comment: "We develop machine learning methods to accelerate the conservative-to-primitive transformation, a costly step in binary neutron star mergers."
 ---
 
